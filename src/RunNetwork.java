@@ -28,27 +28,13 @@ public class RunNetwork {
 
         SetupInput(size);
 
-        neuralNet.add(JooneTools.create_standard(new int[]{1, 30, 1}, JooneTools.LINEAR));
-        neuralNet.get(0).getMonitor().setLearningRate(0.01);
-        neuralNet.get(0).getMonitor().setMomentum(0.01);
-
-        neuralNet.add(JooneTools.create_standard(new int[]{1, 30, 1}, JooneTools.LINEAR));
-        neuralNet.get(1).getMonitor().setLearningRate(0.01);
-        neuralNet.get(1).getMonitor().setMomentum(0.01);
-
-        neuralNet.add(JooneTools.create_standard(new int[]{1, 30, 1}, JooneTools.LINEAR));
-        neuralNet.get(2).getMonitor().setLearningRate(0.01);
-        neuralNet.get(2).getMonitor().setMomentum(0.01);
-
-        neuralNet.add(JooneTools.create_standard(new int[]{1, 30, 1}, JooneTools.LINEAR));
-        neuralNet.get(3).getMonitor().setLearningRate(0.01);
-        neuralNet.get(3).getMonitor().setMomentum(0.01);
+        AddNetwork(1, 30, 1, 0.01, 0.01);
 
         for (NeuralNet net : neuralNet) {
             org.joone.helpers.factory.JooneTools.train(net, inputArray, desiredArray,
-                    500000,       // Max epochs
+                    1000,       // Max epochs
                     0.0001,       // Min RMSE
-                    1000,          // Epochs between ouput reports
+                    100,          // Epochs between ouput reports
                     System.out,       // Std Output
                     true       // Asynchronous mode
             );
@@ -57,16 +43,23 @@ public class RunNetwork {
 
         WaitForNetworks();
 
+        PlotOutput(size);
         long endTime = Calendar.getInstance().getTimeInMillis();
         long duration = endTime - startTime;
         duration = duration / 1000;
         System.out.println("Training Time: " + duration);
     }
 
+    private void AddNetwork(int inputNeurons, int hiddenNeurons, int outputNeurons, double learningRate, double momentum) {
+        neuralNet.add(JooneTools.create_standard(new int[]{inputNeurons, hiddenNeurons, outputNeurons}, JooneTools.LINEAR));
+        neuralNet.get(neuralNet.size() - 1).getMonitor().setLearningRate(learningRate);
+        neuralNet.get(neuralNet.size() - 1).getMonitor().setMomentum(momentum);
+    }
+
     private void WaitForNetworks() {
 
 
-        int noNetworksRunning = neuralNet.size();
+        int noNetworksRunning = -1;
         while (noNetworksRunning != 0) {
             noNetworksRunning = neuralNet.size();
             for (NeuralNet net : neuralNet) {
@@ -92,10 +85,13 @@ public class RunNetwork {
 
         GNUPlotParameters plotParameters = new GNUPlotParameters();
         plotParameters.set("data style lines");
+        p.setPersist(true);
 
         p.setParameters(plotParameters);
         p.addPlot(output);
         p.plot();
+
+
     }
 
     private void SetupInput(int size) {

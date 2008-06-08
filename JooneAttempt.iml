@@ -12,11 +12,20 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../Desktop/joone (2)/lib" />
+          <root url="jar://$MODULE_DIR$/../../../../Program Files/Groovy/Groovy-1.5.6/lib/groovy-1.5.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../Desktop/joone (2)/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/ExternalLibs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/ExternalLibs" recursive="false" />
       </library>
     </orderEntry>
     <orderEntryProperties />

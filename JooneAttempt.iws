@@ -15,7 +15,13 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" name="Default" comment="" />
+    <list default="true" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RunNetwork.java" afterPath="$PROJECT_DIR$/src/RunNetwork.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JooneAttempt.iws" afterPath="$PROJECT_DIR$/JooneAttempt.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JooneAttempt.iml" afterPath="$PROJECT_DIR$/JooneAttempt.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Joone/org/joone/script/JooneGroovyScript.java" afterPath="$PROJECT_DIR$/Joone/org/joone/script/JooneGroovyScript.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JooneAttempt.ipr" afterPath="$PROJECT_DIR$/JooneAttempt.ipr" />
+    </list>
     <ignored path="JooneAttempt.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -76,7 +82,37 @@
     <favorites_list name="JooneAttempt" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RunNetwork.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RunNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="6" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.7076167">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GNUPlotExec.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/gnuplot/GNUPlotExec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="33" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.66584766">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/io/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="90" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.5479115">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -119,6 +155,10 @@
           <option name="myItemId" value="Libraries" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="&lt; 1.6 &gt;" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -128,6 +168,46 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="JooneAttempt" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JooneAttempt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JooneAttempt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\Users\Administrator\IdeaProjects\DifferentialSolverSvn" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JooneAttempt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JooneAttempt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\Users\Administrator\IdeaProjects\DifferentialSolverSvn" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\Users\Administrator\IdeaProjects\DifferentialSolverSvn\Joone" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\Users\Administrator\IdeaProjects\DifferentialSolverSvn\Joone\org\joone" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
     </subPane>
@@ -162,7 +242,7 @@
     <tempConfiguration default="false" name="RunNetwork" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" value="RunNetwork" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-DGNUPLOT_HOME=&quot;%GNUPLOT_HOME%&quot;" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -183,56 +263,6 @@
         <option name="Make" value="true" />
       </method>
     </tempConfiguration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -269,6 +299,56 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.RunNetwork" />
     </list>
@@ -300,7 +380,7 @@
     <option name="UPDATE_RUN_STATUS" value="false" />
     <option name="UPDATE_RECURSIVELY" value="true" />
     <option name="MERGE_DRY_RUN" value="false" />
-    <configuration useDefault="true">/home/father/.subversion</configuration>
+    <configuration useDefault="true">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -323,30 +403,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1150" extended-state="0" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1288" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" order="8" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32779455" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" order="1" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900497" order="3" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39879155" order="3" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2517413" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24773414" order="8" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" order="7" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24771628" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27088404" order="0" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25472638" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6238671" order="2" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" order="8" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="5" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
@@ -414,124 +494,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/java/util/HashMap.class">
+    <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/gnuplot/GNUPlot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="39" selection-start="3193" selection-end="3207" vertical-scroll-proportion="0.3325444">
+        <state line="118" column="26" selection-start="4565" selection-end="4565" vertical-scroll-proportion="0.7092199">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/gnuplot/PropertiesHolder.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_05/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="69" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.67086834">
-          <folding>
-            <marker date="1212701064000" expanded="false" signature="0:77" placeholder="/.../" />
-            <marker date="1212701064000" expanded="true" signature="137:362" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="565:768" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="799:832" placeholder="{...}" />
-            <marker date="1212701064000" expanded="true" signature="838:1029" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="1088:1172" placeholder="{...}" />
-            <marker date="1212701064000" expanded="true" signature="1178:1415" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="1462:1615" placeholder="{...}" />
-            <marker date="1212701064000" expanded="true" signature="1621:1745" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="1778:1807" placeholder="{...}" />
-            <marker date="1212701064000" expanded="true" signature="1813:1908" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="1943:1971" placeholder="{...}" />
-            <marker date="1212701064000" expanded="true" signature="1977:2321" placeholder="/**...*/" />
-            <marker date="1212701064000" expanded="true" signature="2372:2692" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-6-sun/jre/lib/rt.jar!/javax/swing/JFileChooser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.084033616">
+        <state line="17" column="0" selection-start="889" selection-end="889" vertical-scroll-proportion="0.61678004">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/learning/ComparingElement.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_05/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="756" selection-end="756" vertical-scroll-proportion="0.2742616">
+        <state line="13" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.46258503">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/util/SnapshotRecorderBeanInfo.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_05/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="59" selection-start="988" selection-end="988" vertical-scroll-proportion="0.28675136">
+        <state line="596" column="0" selection-start="23663" selection-end="23663" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/samples/engine/xor/XORFahlman.java">
+    <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/gnuplot/JavaPlot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="0" selection-end="6683" vertical-scroll-proportion="0.26501766">
+        <state line="33" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/net/NeuralNet.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/extenders/BatchModeExtender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="563" column="16" selection-start="16980" selection-end="16980" vertical-scroll-proportion="0.4187279">
+        <state line="82" column="16" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.33278957">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/learning/TeacherSynapse.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/extenders/UpdateWeightExtender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="106" selection-start="415" selection-end="415" vertical-scroll-proportion="-0.45759717">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/helpers/factory/JooneTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="48" selection-start="17336" selection-end="17336" vertical-scroll-proportion="0.60196906">
+        <state line="28" column="25" selection-start="736" selection-end="736" vertical-scroll-proportion="0.32646593">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JooneAttempt.iws">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/ExtendableLearner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-11.542017">
+        <state line="78" column="35" selection-start="2899" selection-end="2899" vertical-scroll-proportion="0.35974643">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RunNetwork.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/Learner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="5" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0">
+        <state line="15" column="23" selection-start="374" selection-end="374" vertical-scroll-proportion="0.40412045">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/learning/TeachingSynapse.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/SigmoidLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="9" selection-start="3834" selection-end="3834" vertical-scroll-proportion="0.30612245">
+        <state line="54" column="28" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.45800316">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/Synapse.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/NeuralLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="0" selection-start="6565" selection-end="6565" vertical-scroll-proportion="0.02354788">
+        <state line="7" column="17" selection-start="146" selection-end="146" vertical-scroll-proportion="0.18858954">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/learning/DifferentialTeacherSynapse.java">
+    <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/SimpleLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="62" selection-start="1850" selection-end="1850" vertical-scroll-proportion="1.0486656">
+        <state line="31" column="19" selection-start="818" selection-end="818" vertical-scroll-proportion="0.33280507">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Joone/org/joone/engine/Layer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.02354788">
+        <state line="28" column="22" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.33280507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/gnuplot/GNUPlotExec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="33" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.66584766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LibrarySources/com/panayotis/io/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="90" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.5479115">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RunNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="6" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.7076167">
           <folding />
         </state>
       </provider>
